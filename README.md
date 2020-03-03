@@ -1,14 +1,16 @@
 This app can be used to run commands on openpilot. Currently to run the commands, you will need to edit the file /data/openpilot/selfdrive/athenad.py and add the following method:
 
+```
 @dispatcher.add_method
 def custom(command):
   cmd = "sh /storage/emulated/0/custom.sh %s" % command
   os.system(cmd)
   return {'command': command}
-  
+```
   
 You will also need to add a new file on your eon at /storage/emulated/0/custom.sh that contains:
 
+```
 #!/usr/bin/bash
 
 case "$1" in
@@ -41,7 +43,7 @@ case "$1" in
 		echo "command not found"
     ;;
 esac
-
+```
 
 
 
