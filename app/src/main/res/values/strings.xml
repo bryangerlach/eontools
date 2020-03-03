@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EON Tools</string>
+    <string name="snapshot">Capture Snapshot</string>
+    <string name="gitpull">Run git pull</string>
+    <string name="reboot">Reboot Device</string>
+    <string name="autoecu">Autoecu</string>
+    <string name="terminal">Terminal</string>
+    <string name="settings">Android Settings</string>
+    <string name="killall">Return to OP</string>
+    <string name="tools">Tools</string>
+    <string name="setting">Settings</string>
+    <string name="getjwt">Get JWT Token Here</string>
+    <string name="getdevid">Get Device ID Here</string>
+    <string name="save">Save</string>
+</resources>
