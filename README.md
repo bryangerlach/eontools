@@ -1,4 +1,4 @@
-This app can be used to run commands on openpilot. Currently to run the commands, you will need to edit the file /data/openpilot/selfdrive/athenad.py and add the following method:
+This app can be used to run commands on an eon or comma 2 running openpilot using the athena api. Currently to run the commands, you will need to edit the file /data/openpilot/selfdrive/athenad.py and add the following method:
 
 ```
 @dispatcher.add_method
